@@ -4,6 +4,7 @@ name: Build OpenWrt Firmware - X86
 
 # Controls when the workflow will run
 on:
+  push:
   repository_dispatch:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
