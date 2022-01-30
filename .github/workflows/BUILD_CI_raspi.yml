@@ -16,7 +16,7 @@ on:
         description: Release note txt file name.
         required: true
         default: release_note_docker.txt
-  schedule:
+ # schedule:
     - cron: '0 21 * * 5'
 
 env:
